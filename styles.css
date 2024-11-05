@@ -88,7 +88,7 @@
   }
   
   /* Contact Form Styles */
-#contact {
+  .content #contact {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
@@ -96,36 +96,36 @@
     border-radius: 8px;
   }
   
-  #contact h2 {
+  .content #contact h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.5em;
   }
   
-  .contact-form {
+  .content .contact-form {
     display: flex;
     flex-direction: column;
   }
   
-  .contact-form label {
+  .content .contact-form label {
     margin: 10px 0 5px;
     font-weight: bold;
   }
   
-  .contact-form input,
-  .contact-form textarea {
+  .content .contact-form input,
+  .content .contact-form textarea {
     padding: 10px;
     font-size: 1em;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
   
-  .contact-form input:focus,
-  .contact-form textarea:focus {
+  .content .contact-form input:focus,
+  .content .contact-form textarea:focus {
     border-color: #007BFF;
   }
   
-  .contact-form button {
+  .content .contact-form button {
     margin-top: 20px;
     padding: 12px;
     background-color: #333;
@@ -137,6 +137,6 @@
     cursor: pointer;
   }
   
-  .contact-form button:hover {
+  .content .contact-form button:hover {
     background-color: #555;
   }
